@@ -1,4 +1,3 @@
-//class for roulette table
 class RouletteTable
 {
 
@@ -64,6 +63,7 @@ class RouletteTable
 
     calculateBet(number, info)
     {
+        console.log("here")
         //check if cell has active bet;
         if (this.betIsActive)
         {
@@ -83,7 +83,8 @@ class RouletteTable
                 {
                     balance += this.bet * this.payBack;
                 }
-            }
+            } 
+
         }
         //reset the objects bet;
         this.bet = 0;
