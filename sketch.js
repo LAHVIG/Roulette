@@ -130,8 +130,6 @@ function gameWindow()
     rollNumber();
     fill(numberColor);
     text(displayNumber, 560, 240);
-    fill(0);
-    text(tableText, 560, 400);
     pop();
 
     //displaying all cells

@@ -74,7 +74,6 @@ class RouletteTable
                 if (this.value == info)
                 {
                     balance += this.bet * this.payBack;
-                    tableText = "You won!"
                 }
             }
             else if (typeof this.value == "number")
@@ -83,12 +82,7 @@ class RouletteTable
                 if (this.value == number)
                 {
                     balance += this.bet * this.payBack;
-                    tableText = "You won!"
                 }
-            }
-            else
-            {
-                tableText = "You lost"
             }
         }
         //reset the objects bet;

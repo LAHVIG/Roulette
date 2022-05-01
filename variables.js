@@ -13,5 +13,3 @@ let displayNumber = 2;
 let tableColor = [23, 156, 0];
 
 let showScreen = "start";
-
-let tableText = "welcome!";
