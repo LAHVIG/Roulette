@@ -1,25 +1,3 @@
-let headFont;
-
-let testButton;
-
-let menuButton;
-
-let globalBet = 0;
-
-let balance = 1000;
-
-let numberColor = [0, 0, 0];
-
-let plusButton, minusButton;
-
-let displayNumber = 2;
-
-let rollButton;
-
-let tableColor = [23, 156, 0];
-
-let showScreen = "start";
-
 
 
 function setup()
@@ -152,7 +130,8 @@ function gameWindow()
     rollNumber();
     fill(numberColor);
     text(displayNumber, 560, 240);
-
+    fill(0);
+    text(tableText, 560, 400);
     pop();
 
     //displaying all cells

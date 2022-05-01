@@ -14,4 +14,4 @@ let tableColor = [23, 156, 0];
 
 let showScreen = "start";
 
-let msg = "welcome!";
+let tableText = "welcome!";
